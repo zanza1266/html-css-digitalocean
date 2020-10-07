@@ -1,0 +1,9 @@
+.debug [class*="col-"] {
+  border: 1px solid black;
+  height: 150px;
+
+}
+
+#section-2 .container .h-300 {
+  height: 300px;
+}
