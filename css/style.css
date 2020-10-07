@@ -26,12 +26,24 @@ body{
   text-align: center;
 }
 
+.align-l {
+  text-align: left;
+}
+
 .float-r {
   float: right;
 }
 
 .h-200 {
   height: 200px;
+}
+
+.h-310 {
+  height: 310px;
+}
+
+.lh-310 {
+  line-height: 310px;
 }
 
 /*header*/
@@ -104,4 +116,17 @@ nav ul li a {
 
 #section-2 img {
   height: 40px;
+}
+
+/*section 3*/
+
+#section-3 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: #f3f5f9;
+}
+
+#section-3 img {
+  width: 100%;
 }
