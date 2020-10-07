@@ -2,6 +2,10 @@ html {
   font-size: 15px;
 }
 
+body{
+  font-size: 1rem;
+}
+
 .debug [class*="col-"] {
   border: 1px solid black;
   height: 150px;
@@ -14,14 +18,51 @@ html {
 
 /*classi helper*/
 
+.align-r {
+  text-align: right;
+}
 
+.float-r {
+  float: right;
+}
 
 /*header*/
 
 header nav [class*="col-"] {
   height: 80px;
+  line-height: 80px;
 }
 
+
 nav img {
-  height: 40px;
+  height: 28px;
+}
+
+nav ul.left {
+  width: 350px;
+}
+
+nav ul.right {
+  width: 320px;
+}
+
+
+nav ul li {
+  display: inline-block;
+  color: #031c4e;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.my_jumbo {
+  padding-top: 60px;
+  height: 700px;
+  background-image: url("../img/hero.svg");
+  background-size: cover;
+}
+
+.jumbo-right {
+  text-align: center;
 }
