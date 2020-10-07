@@ -38,12 +38,13 @@ body{
   height: 200px;
 }
 
-.h-310 {
-  height: 310px;
+.chevron {
+  height: 375px;
+
 }
 
-.lh-310 {
-  line-height: 310px;
+.chevron i {
+  line-height: 375px;
 }
 
 /*header*/
