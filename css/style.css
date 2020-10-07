@@ -1,3 +1,7 @@
+html {
+  font-size: 15px;
+}
+
 .debug [class*="col-"] {
   border: 1px solid black;
   height: 150px;
@@ -6,4 +10,14 @@
 
 #section-2 .container .h-300 {
   height: 300px;
+}
+
+/*classi helper*/
+
+
+
+/*header*/
+
+header nav [class*="col-"] {
+  height: 80px;
 }
