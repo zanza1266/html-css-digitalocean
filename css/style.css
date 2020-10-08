@@ -16,6 +16,13 @@ body{
 
 /*classi helper*/
 
+.ghost-align::before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .align-r {
   text-align: right;
 }
@@ -60,8 +67,24 @@ body{
   font-size: 1.5rem;
 }
 
+.bold400 {
+  font-weight: 400;
+}
+
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 .mb-8 {
@@ -148,7 +171,11 @@ button img {
 }
 
 #section-1 img {
-  width: 160px;
+  width: 125px;
+}
+
+.sponsor {
+  height: 110px;
 }
 
 /*section 2*/
