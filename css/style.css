@@ -207,8 +207,31 @@ nav ul li a {
 
  #section-7 {
    padding-top: 80px;
-   padding-bottom: 80px;
+   padding-bottom: 50px;
    text-align: center;
    background-color: #0037b3;
    color: white;
  }
+
+ /* footer */
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #031c4e;
+  color: #7a859d;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #7a859d;
+}
