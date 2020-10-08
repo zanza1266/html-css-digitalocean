@@ -347,6 +347,10 @@ button img {
  color: white;
 }
 
+#section-7 button {
+  color: #006aff;
+}
+
 /* footer */
 
 footer {
@@ -382,10 +386,11 @@ footer ul li a {
     border: none;
     border-bottom: 2px solid #e5e8ed;
   }
-   .side-list {
-     text-align: center;
-     margin-bottom: 40px;
-   }
+
+ .side-list {
+   text-align: center;
+   margin-bottom: 40px;
+ }
 
 }
 
