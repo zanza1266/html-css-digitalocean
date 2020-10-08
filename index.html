@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -32,8 +33,10 @@
                 <li><a href="#">Support<i class="fa fa-chevron-down" aria-hidden="true"></i>
                 </a></li>
                 <li><a href="#">Login</a></li>
-                <li><button class="btn btn-default" type="submit">Sign Up</button></li>
+                <li><button class="btn btn-default sign-up" type="submit">Sign Up</button></li>
               </ul>
+              <a href="#" class="menu-xs-md"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+
             </div>
           </div>
         </div>
@@ -41,17 +44,20 @@
       <div class="my_jumbo">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-7">
+            <div class="col-xs-12 col-md-7 jumbo_left">
               <h1>Welcome to the developer cloud</h1>
-              <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more. We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
+              <p class="mt-20 font-p">We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more. We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
             </div>
             <div class="col-xs-12 col-md-5">
               <div class="jumbo-right">
-                <h1>Deploy your app in seconds.<br>Get started now.</h1>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+                <h1>Deploy your app in seconds.<br> <span style="color: #006aff">Get started now.</span> </h1>
+                <input type="email" class="form-control mb-8" id="exampleInputEmail1" placeholder="Email">
+                <input type="password" class="form-control mb-8" id="exampleInputPassword1" placeholder="Password">
+                <button type="button" class="btn btn-primary btn-lg btn-block mb-8 account">Create your account</button>
+                <button type="button" class="btn btn-default btn- lg btn-block mb-8 google">
+                  <img src="img/google.png" alt="google">
+                  Sign up with Google
+                </button>
                 <p>By signing up you agree to the <a href="#">Terms of Services</a> </p>
               </div>
             </div>

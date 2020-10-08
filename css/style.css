@@ -1,16 +1,14 @@
 html {
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
   font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
-.debug [class*="col-"] {
-  border: 1px solid black;
-  height: 150px;
-
-}
 
 #section-2 .container .h-300 {
   height: 300px;
@@ -54,11 +52,27 @@ body{
   line-height: 375px;
 }
 
+.font-title {
+  font-size: 2.5rem;
+}
+
+.font-p {
+  font-size: 1.5rem;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 /*header*/
 
 header nav [class*="col-"] {
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
 }
 
 
@@ -66,33 +80,63 @@ nav img {
   height: 28px;
 }
 
-nav ul.left {
-  width: 350px;
-}
-
-nav ul.right {
-  width: 320px;
+nav ul {
+  padding-left: 0px;
 }
 
 
 nav ul li {
   display: inline-block;
   color: #031c4e;
+  margin-left: 10px;
 }
 
 nav ul li a {
   text-decoration: none;
+  color: #031b4f;
+}
+
+button.sign-up {
+  color: #006aff;
+  border-color: #006aff;
 }
 
 .my_jumbo {
   padding-top: 60px;
-  height: 700px;
+  padding-bottom: 80px;
   background-image: url("../img/hero.svg");
   background-size: cover;
+  color: white;
+}
+
+.jumbo_left p {
+  padding-right: 20px;
+}
+
+.jumbo_left h1 {
+  font-size: 4rem;
 }
 
 .jumbo-right {
   text-align: center;
+  padding: 25px 20px 25px 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: #031c4e;
+}
+
+button.account {
+  background-color: #006aff;
+  font-size: 1rem;
+}
+
+button.google {
+  font-size: 1rem;
+}
+
+button img {
+  height: 20px;
+  float: left;
 }
 
 /*section 1*/
@@ -227,11 +271,37 @@ footer ul {
 }
 
 footer li {
-  text-decoration: none;
   margin-top: 10px;
 }
 
 footer ul li a {
   text-decoration: none;
   color: #7a859d;
+}
+
+/* media query */
+
+@media screen and (max-width: 992px) {
+
+  header nav .right {
+    display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+
+  header nav .right {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1201px) {
+
+  .menu-xs-md {
+    display: none;
+  }
+
 }
