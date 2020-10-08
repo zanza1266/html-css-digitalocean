@@ -133,6 +133,47 @@ nav ul li a {
 
 /*section 4*/
 
+#section-4 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 #section-4 img {
   height: 40px;
+}
+
+/* section 5 */
+
+#section-5 {
+  background-color: #0037b3;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+}
+
+.li_element {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+}
+
+.li_element span {
+  line-height: 50px;
+}
+
+#section-5 .data_list > .li_element:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
+.li_element span:nth-child(1) {
+
+}
+
+.li_element span:nth-child(2) {
+  margin-left: 30px;
+
+}
+
+.li_element span:nth-child(3) {
+  float:right;
 }
