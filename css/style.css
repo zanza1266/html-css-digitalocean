@@ -59,6 +59,10 @@ body{
   line-height: 375px;
 }
 
+[class*="chevron-"] a i {
+  color: #031c4e;
+}
+
 .font-title {
   font-size: 2.5rem;
 }
@@ -215,13 +219,28 @@ button img {
 
 #section-3 {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   text-align: center;
   background-color: #f3f5f9;
 }
 
+#section-3 h1 {
+ color: #031b4e;
+}
+
+#section-3 p {
+  color: #5c6a88;
+}
+
 #section-3 img {
   width: 100%;
+}
+
+#section-3 .bottom-p {
+  color: #031b4e;
+  font-size: 1.3rem;
+  font-weight: 400;
+
 }
 
 /*section 4*/
@@ -352,10 +371,20 @@ footer ul li a {
     border: none;
     border-bottom: 2px solid #e5e8ed;
   }
-   .side-list {
-     text-align: center;
-     margin-bottom: 40px;
-   }
+
+  .side-list {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .chevron-s3 {
+    height: 306px;
+  }
+
+  .chevron-s3 i {
+    line-height: 306px;
+  }
+
 }
 
 @media screen and (min-width: 1201px) {
@@ -363,5 +392,6 @@ footer ul li a {
   .menu-xs-md {
     display: none;
   }
+
 
 }
