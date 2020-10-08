@@ -38,11 +38,19 @@ body{
   height: 200px;
 }
 
-.chevron {
+.chevron-s3 {
   height: 375px;
 }
 
-.chevron i {
+.chevron-s3 i {
+  line-height: 375px;
+}
+
+.chevron-s6 {
+  height: 375px;
+}
+
+.chevron-s6 i {
   line-height: 375px;
 }
 
@@ -177,3 +185,30 @@ nav ul li a {
 .li_element span:nth-child(3) {
   float:right;
 }
+
+/* section-6 */
+
+#section-6 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #f3f5f9;
+}
+ #section-6 .card {
+   padding: 50px 0px 50px 0px;
+   background-color: white;
+ }
+
+ #section-6 img {
+   width: 200px;
+ }
+
+ /* section-7 */
+
+ #section-7 {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   text-align: center;
+   background-color: #0037b3;
+   color: white;
+ }
