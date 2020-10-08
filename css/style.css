@@ -63,6 +63,7 @@ body{
   color: #031c4e;
 }
 
+
 .font-title {
   font-size: 2.5rem;
 }
@@ -250,8 +251,24 @@ button img {
   padding-bottom: 80px;
 }
 
+#section-4 h1, #section-4 h4 {
+  color: #031b4e;
+}
+
 #section-4 img {
   height: 40px;
+}
+
+#section-4 p {
+  color: #5c6a88;
+}
+
+#section-4 a {
+  font-weight: 400;
+}
+
+#section-4 .xs_card {
+  margin-top: 20px;
 }
 
 /* section 5 */
