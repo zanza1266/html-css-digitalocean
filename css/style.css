@@ -87,6 +87,10 @@ body{
   margin-bottom: 30px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 .mb-8 {
   margin-bottom: 8px;
 }
@@ -176,6 +180,7 @@ button img {
 
 .sponsor {
   height: 110px;
+  text-align: center;
 }
 
 /*section 2*/
@@ -185,12 +190,21 @@ button img {
   padding-bottom: 120px;
 }
 
+#section-2 h2 {
+ color: #031b4e;
+}
+
+#section-2 p {
+  color: #5c6a88;
+}
 
 #section-2 li {
   display: block;
-  border-left: 2px solid grey;
+  border-left: 2px solid #e5e8ed;
   text-decoration: none;
   padding: 10px;
+  font-weight: 400;
+  color: #5c6a88;
 }
 
 #section-2 img {
@@ -314,6 +328,16 @@ footer ul li a {
     display: none;
   }
 
+  #section-2 li {
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #e5e8ed;
+  }
+   .side-list {
+     text-align: center;
+     margin-bottom: 40px;
+   }
+
 }
 
 
@@ -323,6 +347,15 @@ footer ul li a {
     display: none;
   }
 
+  #section-2 li {
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #e5e8ed;
+  }
+   .side-list {
+     text-align: center;
+     margin-bottom: 40px;
+   }
 }
 
 @media screen and (min-width: 1201px) {
