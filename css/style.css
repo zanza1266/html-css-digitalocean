@@ -40,7 +40,6 @@ body{
 
 .chevron {
   height: 375px;
-
 }
 
 .chevron i {
@@ -119,7 +118,7 @@ nav ul li a {
   height: 40px;
 }
 
-/*section 3*/
+/* section 3 */
 
 #section-3 {
   padding-top: 120px;
@@ -130,4 +129,10 @@ nav ul li a {
 
 #section-3 img {
   width: 100%;
+}
+
+/*section 4*/
+
+#section-4 img {
+  height: 40px;
 }
